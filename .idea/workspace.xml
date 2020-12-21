@@ -21,14 +21,33 @@
   <component name="ChangeListManager">
     <list default="true" id="ce6eb306-7039-464e-82d7-1528561e8ef2" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一题/img/主页.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一题/img/计划.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/第一题/img/计划.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一题/主页.html" beforeDir="false" afterPath="$PROJECT_DIR$/第一题/主页.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一题/家乡.html" beforeDir="false" afterPath="$PROJECT_DIR$/第一题/家乡.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一题/故事.html" beforeDir="false" afterPath="$PROJECT_DIR$/第一题/故事.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一题/计划.html" beforeDir="false" afterPath="$PROJECT_DIR$/第一题/计划.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第二题/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/第二题/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第二题/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/第二题/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/Screenshot_20201123_203628.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/home-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/m10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/m11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/m2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/m3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/m4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/m5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/m6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/m7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/m8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/m9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/五岳寨.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/故事.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/相册.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/计划.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/锅.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/主页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/家乡.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/故事.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/相册.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/计划.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第二题/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/html+css/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第二题/img/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html+css/img/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第二题/img/home-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html+css/img/home-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第二题/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html+css/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +57,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -63,6 +82,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -84,7 +104,9 @@
       <workItem from="1608521202671" duration="35000" />
       <workItem from="1608521264038" duration="2476000" />
       <workItem from="1608540680933" duration="3352000" />
-      <workItem from="1608550499461" duration="1283000" />
+      <workItem from="1608550499461" duration="1798000" />
+      <workItem from="1608552513385" duration="2777000" />
+      <workItem from="1608555347412" duration="317000" />
     </task>
     <servers />
   </component>
@@ -101,16 +123,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="473" y="281" key="#Notifications" timestamp="1608364544296">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="473" y="281" key="#Notifications/0.0.1440.920@0.0.1440.920" timestamp="1608364544296" />
+    <state x="176" y="116" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608555650110">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="176" y="116" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920/2160.0.2048.1112@0.0.1440.920" timestamp="1608555650110" />
     <state x="3012" y="351" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608551279329">
       <screen x="2160" y="0" width="2048" height="1112" />
     </state>
     <state x="3012" y="351" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.920/2160.0.2048.1112@2160.0.2048.1112" timestamp="1608551279329" />
+    <state x="222" y="105" key="SettingsEditor" timestamp="1608555786310">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="222" y="105" key="SettingsEditor/0.0.1440.920/2160.0.2048.1112@0.0.1440.920" timestamp="1608555786310" />
     <state x="483" y="201" width="672" height="561" key="search.everywhere.popup" timestamp="1608521807936">
       <screen x="0" y="0" width="1440" height="920" />
     </state>

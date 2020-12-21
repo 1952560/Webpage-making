@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div style="text-align: center;font-size: 18px">
+        <div>
+            控制输入框字符输入，计算输入字符总数,显示剩余字数;<br>
+            一个英文字符算一个字符，一个中文字符算两个字符计算。
+        </div>
+        <div style="margin: 20px">
+            <textarea rows="5" cols="40" onkeyup="checkWord(this);" onmousedown="checkWord(this);"
+               name="content"></textarea>
+        </div>
+        <div>
+            还可以输入<span id="wordCheck">200</span>个字符
+        </div>
+    </div>
+<script>
+    var maxstrlen = 200;
+    var index=0;
+
+    function checkWord(doc) {
+        var str = doc.value;
+        var myLen = getStrlen(str);
+        var textarea=document.getElementById("wordCheck")
+        if (myLen > maxstrlen) {
+            doc.value = str.substring(0, index-1);
+        }
+        textarea.innerHTML = Math.max(0,Math.floor(maxstrlen - myLen));
+    }
+
+    function getStrlen(str) {
+        var myLen = 0;
+        for (index=0; (index < str.length) && (myLen <= maxstrlen); index++) {
+            var a=str.charAt(index);
+            if(a.match(/[^\x00-\xff]/ig) != null)
+                myLen+=2;
+            else
+                myLen+=1;
+        }
+        return myLen;
+    }
+</script>
+</body>
+
+</html>

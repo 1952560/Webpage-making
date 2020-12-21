@@ -50,6 +50,6 @@ body {
     font-size: 20px;
     font-weight: 700;
     color: white;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background-image: linear-gradient(to right, white 0%, gray);
     border-radius: 15px;
 }
