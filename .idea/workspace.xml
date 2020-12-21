@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce6eb306-7039-464e-82d7-1528561e8ef2" name="默认的" comment="" />
+    <list default="true" id="ce6eb306-7039-464e-82d7-1528561e8ef2" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/主页.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/img/计划.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/第一题/img/计划.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/主页.html" beforeDir="false" afterPath="$PROJECT_DIR$/第一题/主页.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/家乡.html" beforeDir="false" afterPath="$PROJECT_DIR$/第一题/家乡.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/故事.html" beforeDir="false" afterPath="$PROJECT_DIR$/第一题/故事.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一题/计划.html" beforeDir="false" afterPath="$PROJECT_DIR$/第一题/计划.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第二题/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/第二题/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第二题/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/第二题/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +42,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lrAllsio6meadOnlHiKDbI8OGz" />
   <component name="ProjectViewState">
@@ -52,17 +83,34 @@
       <workItem from="1608468612884" duration="6195000" />
       <workItem from="1608521202671" duration="35000" />
       <workItem from="1608521264038" duration="2476000" />
+      <workItem from="1608540680933" duration="3352000" />
+      <workItem from="1608550499461" duration="1283000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="473" y="281" key="#Notifications" timestamp="1608364544296">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="473" y="281" key="#Notifications/0.0.1440.920@0.0.1440.920" timestamp="1608364544296" />
+    <state x="3012" y="351" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608551279329">
+      <screen x="2160" y="0" width="2048" height="1112" />
+    </state>
+    <state x="3012" y="351" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.920/2160.0.2048.1112@2160.0.2048.1112" timestamp="1608551279329" />
     <state x="483" y="201" width="672" height="561" key="search.everywhere.popup" timestamp="1608521807936">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
