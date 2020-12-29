@@ -1,6 +1,6 @@
 <?php
 header("content-type:text/html;charset=utf-8");
-//接收数据
+
 $redirectUrl='<a href="注册.php">重新注册</a>';
 $username=$_POST['username'];
 $password=$_POST['password'];
@@ -11,7 +11,7 @@ $verify=trim(strtolower($_POST['verify']));
 $verify1=trim(strtolower($_POST['verify1']));
 
 //检测用户名首字母是否为字母
-$char=substr($username,0,1);//得到第一个字母
+$char=substr($username,0,1);
 
 $ascii=ord($char);//得到指定字符的ASCII
 //检测ASCII是否在65-90（A-Z）或者97-122（a-z）
