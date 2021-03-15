@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="jquery-3.5.1.js"></script>
+    <script src="operate.js"></script>
+</head>
+<body>
+<h1>慕课网注册页面</h1>
+<form id="userInfo" method="post" onsubmit="return SendInfo();">
+    <table width="100%">
+        <tr>
+            <td>
+                <input type="text" class="item" id="username" name="username"
+                       onkeyup="checkUser()" onkeydown="checkUser()" placeholder="用户名">
+                <p id="user">用户名须长度<10</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="email" class="item" id="email" name="email"
+                       onkeyup="checkEmail()" onkeydown="checkEmail()" placeholder="邮箱">
+                <p id="mail">邮箱必须包含@</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="password" class="item" id="password" name="password"
+                       onkeyup="checkPasswd()" onkeydown="checkPasswd()" placeholder="密码">
+                <p id="passwd">密码不能为空，密码长度<20</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="password" class="item" id="password1" name="password1"
+                       onkeyup="checkPasswd1()" onkeydown="checkPasswd1()" placeholder="请再次输入密码...">
+                <p id="passwd1">两次密码须一致</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="sub" type="submit" value="立即注册" id="saveUserInfo" onsubmit="return SendInfo();">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,9 @@
+D:\code\c#\OracleDemo\OracleDemo\bin\Debug\OracleDemo.exe.config
+D:\code\c#\OracleDemo\OracleDemo\bin\Debug\OracleDemo.exe
+D:\code\c#\OracleDemo\OracleDemo\bin\Debug\OracleDemo.pdb
+D:\code\c#\OracleDemo\OracleDemo\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\code\c#\OracleDemo\OracleDemo\obj\Debug\OracleDemo.csprojAssemblyReference.cache
+D:\code\c#\OracleDemo\OracleDemo\obj\Debug\OracleDemo.csproj.CoreCompileInputs.cache
+D:\code\c#\OracleDemo\OracleDemo\obj\Debug\OracleDemo.csproj.CopyComplete
+D:\code\c#\OracleDemo\OracleDemo\obj\Debug\OracleDemo.exe
+D:\code\c#\OracleDemo\OracleDemo\obj\Debug\OracleDemo.pdb
