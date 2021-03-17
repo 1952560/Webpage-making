@@ -30,7 +30,7 @@ function SendInfo(){
             alert(error);
         }
     });
-    return true;
+    return false;
 }
 
 function checkEmail(){
