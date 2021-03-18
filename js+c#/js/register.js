@@ -1,8 +1,8 @@
-function JumpToRegister(){
-    window.location.href="注册.html";
+function JumpToLogin(){
+    window.location.href="登录.html";
 }
 
-const url = "https://localhost:44388/WebTest.asmx/HelloWorld2";
+const url_reg = "https://localhost:44388/WebTest.asmx/Register";
 const maxuserlen = 10;
 const maxpasswdlen = 20;
 
@@ -13,21 +13,21 @@ function SendInfo(){
     }
     let data = $("#userInfo").serialize();
     console.log(data);
-    console.log(typeof (data));
 
     $.ajax({
-        url: url,
+        url: url_reg,
         type: "post",
         contentType: "application/x-www-form-urlencoded",
-        dataType: "text",
+        dataType: "json",
         data:data,
         success: function (result,status) {
             if (status == "success") {
-                alert(result);
+                console.log(result);
+                console.log(JSON.stringify(result));
             }
         },
         error: function (error) {
-            alert(error);
+            console.log(error);
         }
     });
     return false;

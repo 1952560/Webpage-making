@@ -5,20 +5,22 @@
     <title>登录页面</title>
     <link rel="stylesheet" href="index.css">
     <script src="jquery-3.5.1.js"></script>
-    <script src="operate.js"></script>
+    <script src="login.js"></script>
 </head>
 <body>
 <h1>慕课网登录页面</h1>
-<form>
+<form id="userInfo" method="post" onsubmit="return SendInfo();">
     <table width="100%">
         <tr>
             <td>
                 <input type="email" class="item" name="email" placeholder="邮箱">
+                <p>&nbsp;</p>
             </td>
         </tr>
         <tr>
             <td>
                 <input type="password" class="item" name="password" placeholder="密码">
+                <p>&nbsp;</p>
             </td>
         </tr>
         <tr>
