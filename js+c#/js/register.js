@@ -2,7 +2,7 @@ function JumpToLogin(){
     window.location.href="登录.html";
 }
 
-const url_reg = "https://localhost:44388/WebTest.asmx/Register";
+const url_reg = "https://localhost:5001/Register";
 const maxuserlen = 10;
 const maxpasswdlen = 20;
 
@@ -11,19 +11,31 @@ function SendInfo(){
     if(!flag) {
         return false;
     }
-    let data = $("#userInfo").serialize();
+    let user = $("#userInfo").serializeArray();
+    let data ={}
+    data["username"]=user[0].value;
+    data["email"]=user[1].value;
+    data["password"]=user[2].value;
     console.log(data);
 
     $.ajax({
         url: url_reg,
         type: "post",
-        contentType: "application/x-www-form-urlencoded",
+        contentType: "application/json",
         dataType: "json",
-        data:data,
+        data:JSON.stringify(data),
         success: function (result,status) {
-            if (status == "success") {
+            if (status === "success") {
                 console.log(result);
-                console.log(JSON.stringify(result));
+                if(result["code"] === 2){
+                    let text_email = document.getElementById("mail");
+                    text_email.innerHTML = "此邮箱已被注册";
+                }
+                else if(result["code"] === 1){
+                    let email = result["email"];
+                    let password = result["password"];
+                    window.location.href="登录.html?email="+email+"&password="+password;
+                }
             }
         },
         error: function (error) {
